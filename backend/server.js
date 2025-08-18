@@ -17,6 +17,9 @@ app.use(express.json());
 app.use(cors({
     origin: [
         'http://localhost:5173',
+        'https://full-stack-blog-platform.vercel.app',
+        // "https://blog-website-mern-sxag.vercel.app",
+        // "https://blog-website-mern-gray.vercel.app",
     ],
 }));
 
