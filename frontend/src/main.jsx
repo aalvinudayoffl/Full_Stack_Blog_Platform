@@ -97,7 +97,6 @@ function AppWrapper() {
 
         {/* Catch all - redirect to sign-up */}
         <Route path="*" element={<Navigate to="/sign-up" replace />} />
-        {/* <Route path="/single-post" element={<Navigate to="/single-post/1" replace />} /> */}
       </Routes>
 
       {/* Conditionally render SocialMediaGame for authenticated users only */}
